@@ -18,9 +18,12 @@ public class LineCompresion {
         {
             System.out.println("Both lines are equale");
         }
-        else
+        else if (dis > dis1)
         {
-            System.out.println("Both lines are not equale");
+            System.out.println("Line one is greater than line two");
+        }
+        {
+            System.out.println("Line one is smaller than line two");
         }
 }
 }
